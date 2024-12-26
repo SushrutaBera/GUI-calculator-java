@@ -1,7 +1,6 @@
 public class Evaluation {
 	
     // code in this Class is written by StackOverflow user: Boann
-    // public code for evaluation of math  expressions from text
     
     public static double eval(final String str) {
         return new Object() {

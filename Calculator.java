@@ -302,7 +302,9 @@ public class Calculator
             @Override
             public void actionPerformed(ActionEvent e)
             {
-                txtScreen.append("clr");
+                String t = txtScreen.getText();
+                t = t.substring(0, 0);
+                txtScreen.setText(t);
             }
         });
         paranthesisButton_left.addActionListener(new ActionListener() {
